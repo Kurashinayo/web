@@ -91,8 +91,8 @@ document.onmousedown=click;
                                 <h1 class="display-5 fw-bolder text-white mb-2" style="text-shadow: 1px 1px 1px #000;" >국민의 희망을 안전으로</h1>
                                 <p class="display-5 fw-bolder text-white mb-2"style="text-shadow: 1px 1px 1px #000;" >지켜내겠습니다!</p>
                                 <div class="d-grid gap-3 d-sm-flex justify-content-sm-center justify-content-xl-start">
-                                    <a class="btn btn-primary btn-lg px-4 me-sm-3" href="https://docs.google.com/">지원서 작성하기</a>
-                                    <a class="btn btn-info btn-outline-light btn-lg px-4" href="https://www.youtube.com/">홍보영상</a>
+                                    <a class="btn btn-primary btn-lg px-4 me-sm-3" href="https://discord.gg/realw">지원서 작성하기</a>
+                                    <a class="btn btn-info btn-outline-light btn-lg px-4" href="https://youtube.com/channel/UCuR8egygWIce3eooWB7oISQ">공식 유튜브</a>
                                 </div>
                             </div>
                         </div>
@@ -221,7 +221,7 @@ document.onmousedown=click;
                                             <img class="rounded-circle me-3" src="https://dummyimage.com/40x40/ced4da/6c757d" alt="..." />
                                             <div class="small">
                                                 <div class="fw-bold">닉네임</div>
-                                                <div class="text-muted">일자/div>
+                                                <div class="text-muted">일자</div>
                                             </div>
                                         </div>
                                     </div>
@@ -245,7 +245,7 @@ document.onmousedown=click;
         <footer class="bg-dark py-4 mt-auto">
             <div class="container px-5">
                 <div class="row align-items-center justify-content-between flex-column flex-sm-row">
-                    <div class="col-auto"><div class="small m-0 text-white">Copyright 2021-2022&copy; RealWorld Fire Agency. All Right Reserved. Siroko.</div></div>
+                    <div class="col-auto"><div class="small m-0 text-white">Copyright 2022-2023&copy; RealWorld Fire Agency. All Right Reserved. Siroko.</div></div>
                     </div>
                 </div>
             </div>
