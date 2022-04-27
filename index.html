@@ -139,13 +139,14 @@ document.onmousedown=click;
                     <div class="row gx-5 justify-content-center">
                         <div class="col-lg-10 col-xl-7">
                             <div class="text-center">
-                                <div class="fs-4 mb-4 fst-italic">"총감내용"</div>
+							<h2 class="fw-bolder">소방청 명언</h2>
+                                <div class="fs-4 mb-4 fst-italic">"가장 잘 견디는 자가 가장 잘 해낼 수 있는 자이다."</div>
                                 <div class="d-flex align-items-center justify-content-center">
-                                    <img class="rounded-circle me-3" src="https://dummyimage.com/40x40/ced4da/6c757d" alt="..." />
                                     <div class="fw-bold">
-                                        소방청장
-                                        <span class="fw-bold text-primary mx-1">/</span>
-                                        Daniel Kaven
+                                        John Milton
+										<div class="fw-bold">
+                                        <span class="fw-bold text-primary mx-1"></span>
+                                        1608-12-09 - 1674-11-08
                                     </div>
                                 </div>
                             </div>
@@ -255,4 +256,69 @@ document.onmousedown=click;
         <!-- Core theme JS-->
         <script src="js/scripts.js"></script>
     </body>
+	
+	<!-- 아래부터 모달 팝업 사용 안할땐 주석 처리 할것-->
+<script src="https://code.jquery.com/jquery-latest.js"></script> 
+ 
+    <style>
+        .modal {
+            display: none;
+            position: fixed;
+            z-index: 1;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            overflow: auto;
+            background-color: rgb(0,0,0);
+            background-color: rgba(0,0,0,0.4);
+        }
+    
+        .modal-content {
+            background-color: #fefefe;
+            margin: 15% auto;
+            padding: 20px;
+            border: 1px solid #888;
+            width: 30%;                         
+        }
+ 
+</style>
+ 
+ 
+ 
+    <div id="myModal" class="modal">
+ 
+      <div class="modal-content">
+                <p style="text-align: center;"><span style="font-size: 14pt;"><b><span style="font-size: 24pt;">소방청 안내사항</span></b></span></p>
+                <p style="text-align: center; line-height: 1.5;"><br /></p>
+                <p style="text-align: center; line-height: 1.5;"><span style="font-size: 14pt;">소방청 내부 훈련 으로 인하여</span></p>
+                <p style="text-align: center; line-height: 1.5;"><b><span style="color: rgb(255, 0, 0); font-size: 14pt;">20:00 - 21:00 까지</span></b></p>
+                <p style="text-align: center; line-height: 1.5;"><span style="font-size: 14pt;">출동이 불가능 합니다. RP에 주의 바랍니다.</span></p>
+                <p style="text-align: center; line-height: 1.5;"><span style="font-size: 14pt;"><br /></span></p>
+                <p style="text-align: center; line-height: 1.5;"><span style="font-size: 14pt;">훈련 완료 후 따로 공지 드리겠습니다.</span></p>
+                <p style="text-align: center; line-height: 1.5;"><span style="font-size: 14pt;">감사합니다.</span></p>
+				<p style="text-align: center; line-height: 1.5;"><span style="font-size: 14pt;">헤당 공지는 테스트 공지 입니다.</span></p>
+                <p style="text-align: center; line-height: 1.5;"><br /></p>
+                <p><br /></p>
+            <div style="cursor:pointer;background-color:#DDDDDD;text-align: center;padding-bottom: 10px;padding-top: 10px;" onClick="close_pop();">
+                <span class="pop_bt" style="font-size: 13pt;" >
+                     닫기
+                </span>
+            </div>
+      </div>
+ 
+    </div>
+ 
+ 
+    <script type="text/javascript">
+      
+        jQuery(document).ready(function() {
+                $('#myModal').show();
+        });
+        //팝업 Close 기능
+        function close_pop(flag) {
+             $('#myModal').hide();
+        };
+        
+      </script>
 </html>
